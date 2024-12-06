@@ -32,6 +32,7 @@ Wukong with $\Delta$ as 1s outperforms that with 4s in the unfavorable situation
 - Pic1: Latency v.s.batch size
 - Pic2: Throughput v.s. batch size
 - Pic3: Latency v.s. throughput
+
 The three pictures show that even with random message delays, Wukong still outperforms the others by a significant margin.
 
 ## Exp 3: Adding a new baseline: LightDAG
@@ -48,5 +49,6 @@ We specifically choose LightDAG1 from [IPDPS'24] LightDAG: A Low-latency DAG-bas
 - Pic1: Latency v.s.batch size
 - Pic2: Throughput v.s. batch size
 - Pic3: Latency v.s. throughput
+
 Since LightDAG overlooks the latency optimization of non-leader blocks, it also performs worse than Wukong.
 
